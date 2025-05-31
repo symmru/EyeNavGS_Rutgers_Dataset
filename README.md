@@ -65,7 +65,7 @@ Each `{userID}_{scene}.csv` file contains per-frame, per-eye records with the fo
 
 * `ViewIndex` (0: left eye, 1: right eye)
 * `FOV1`,`FOV2`,`FOV3`,`FOV4`: Field of view angles (radians) for left, right, top, bottom extents
-* `PositionX`,`PositionY`,`PositionZ`: Head position in world space
+* `PositionX`,`PositionY`,`PositionZ`: Eye position (i.e., head position offset by half of IPD) in the world space.
 * `QuaternionX`,`QuaternionY`,`QuaternionZ`,`QuaternionW`: Head orientation quaternion in world space
 * `GazePosX`,`GazePosY`,`GazePosZ`: Eye gaze position in world space
 * `GazeQX`,`GazeQY`,`GazeQZ`,`GazeQW`: Eye gaze orientation quaternion in world space
