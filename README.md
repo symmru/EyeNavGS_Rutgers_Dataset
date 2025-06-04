@@ -4,7 +4,7 @@
 
 Zihao Ding¹, Cheng‑Tse Lee², Mufeng Zhu¹, Tao Guan¹, Yuan‑Chun Sun², Cheng‑Hsin Hsu², Yao Liu¹<br>
 ¹ Rutgers University | ² National Tsing Hua University<br>
-\| [Webpage](https://symmru.github.io/EyeNavGS/) | ~~Full Paper~~ (link will be updated here soon)
+\| [Webpage](https://symmru.github.io/EyeNavGS/) | [Full Paper](https://arxiv.org/abs/2506.02380)
 
 -------------------------------------------------------------------------------------------------------
 
@@ -92,11 +92,14 @@ Each `{userID}_{scene}.csv` file contains per-frame, per-eye records with the fo
 If you use this 👁️NavGS datase in your research, please cite:
 
 ```textile
-@inproceedings{EyeNavGS,
-    title={{EyeNavGS: A 6-DoF Navigation Dataset and Record-n-Replay Software for Real-World 3DGS Scenes in VR}},
-    author={{Zihao Ding and Cheng-Tse Lee and Mufeng Zhu and Tao Guan and Yuan-Chun Sun and Cheng-Hsin Hsu and Yao Liu}},
-    year={2025},
-    month={May},
+@misc{ding2025eyenavgs6dofnavigationdataset,
+      title={EyeNavGS: A 6-DoF Navigation Dataset and Record-n-Replay Software for Real-World 3DGS Scenes in VR}, 
+      author={Zihao Ding and Cheng-Tse Lee and Mufeng Zhu and Tao Guan and Yuan-Chun Sun and Cheng-Hsin Hsu and Yao Liu},
+      year={2025},
+      eprint={2506.02380},
+      archivePrefix={arXiv},
+      primaryClass={cs.MM},
+      url={https://arxiv.org/abs/2506.02380}, 
 }
 ```
 
